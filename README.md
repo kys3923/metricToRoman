@@ -5,7 +5,7 @@
 3.  show calculated roman numeral number in html
 4.  add CSS style sheet
 5.  add JS script to calculate
-6.  range of number to calculate is 1 to 5999
+6.  range of number to calculate is 1 to 4999
 7.  Deadline - Dec, 27th, Tuesday
 8.  keep track git commits to this post
 8.  Feel free to ask questions! 
