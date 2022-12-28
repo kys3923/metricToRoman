@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
     I: 1,
   }
 
+ 
+
   const translate1 = (String) => {
     if (result1 !== '') {
       return
@@ -158,12 +160,12 @@ document.addEventListener('DOMContentLoaded', function () {
       console.log(result1);
       output.innerHTML = result1;
     }
-
+    
   }
-
+  
   const calculate2 = (e) => {
     e.preventDefault();
-
+    
     // input validation
     if (input.value === '0') {
       alert('Please input valid number only')
@@ -174,6 +176,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
       translate2(input.value)
       console.log(result2);
+      output.innerHTML = result1;
       
     }
 
